@@ -1,0 +1,180 @@
+11th Nov 2025
+==============
+
+    -> Python 
+
+        -> Full Stack Development               : Django (Web Applications Flask, FAST API etc)
+
+        -> Data Analytics / Data Science / AI   : Data Operations (Numpy, Pandas, Pytorch etc)
+
+        -> Cloud / DevOps                       : Scripting / Automation (OS, Sys, Cloud Boto3 etc)
+
+    -> Core Python which is common for all above courses [ 35 Days ]
+
+        -> Python Language Fundamentals 
+
+    -> Python
+
+        -> Python is a high-level, general-purpose programming language. 
+        Its design philosophy emphasizes code readability with the 
+        use of significant indentation. 
+        Python is dynamically type-checked and garbage-collected.
+
+    
+    -> Python is a "high-level" programming language
+
+        -> High level languages are "Human Understandable" language (English) 
+
+        -> python code looks like english 
+
+            -> sum = num1 + num2
+
+    
+    -> Low Level Language 
+
+        -> Low level languages are "Machine Understandable" language (Binary) 
+
+            -> 0101010101010101
+
+        -> 01110000 01111001 01110100 01101000 01101111 01101110 -> python
+
+    
+    -> Python is "general-purpose" programming language
+
+        -> If i can do multiple types of tasks / Applications 
+
+        -> Using python, yes we can Develop following types of Applications
+
+            -> Desktop Applications ? -> Yes 
+
+            -> Web Applications ? -> Yes 
+
+            -> Data Oriented Applications ? -> Yes 
+
+            -> API's ? -> Yes 
+
+            -> Automation Scripts ? -> Yes 
+
+    
+    -> Domain Specific Languages 
+
+        -> If i can do only specific types of tasks / Applications 
+
+        -> SQL : Structured Query Language is a domain-specific language 
+            used to manage data in "Database" Systems 
+
+
+    -> Python design philosophy emphasizes "code readability" with the 
+        use of significant "indentation"
+    
+        -> "code readability"
+
+            Java Code 
+            ---------
+        
+            class Main {
+                public static void main(String[] args) {
+                    int first = 10;
+                    int second = 20;
+                    // add two numbers
+                    int sum = first + second;
+                    System.out.println(first + " + " + second + " = "  + sum);
+                }
+            }
+
+            class 
+            public
+            static
+            void
+            []
+            ()
+            {}
+            ; 
+
+            
+            Python Code 
+            -----------
+
+                    number1 = 10
+                    number2 = 20
+                    sum = number1 + number1
+                    print(sum)
+
+                
+        -> "indentation"
+
+            -> indentation refers to code Structuring 
+
+            -> In Python we just use "spaces" for indentation 
+
+    
+    -> Python is dynamically type-checked and garbage-collected
+
+        -> Dynamically type-checked 
+
+            -> We have Data Types in programming languages 
+
+                -> Data Types : Categorization Of Data 
+
+                    -> text, whole numbers, decimal numbers etc 
+
+            -> NOTE : Dynamically type-checked means, no need to explicitly specify 
+                        Data Types 
+
+                    -> product = "Apple Iphone 16"
+                    -> price = 64000
+                    -> rating = 4.6 
+                    -> etc 
+
+        -> Static type-checked (Java)
+
+            -> NOTE : Static type-checked means, we need to explicitly specify 
+                        Data Types and it's Mandatory
+
+                    -> String product = "Apple Iphone 16";
+                    -> int price = 64000;
+                    -> double rating = 4.6; 
+                    -> etc  
+
+        -> Garbage-collected
+
+            -> Removing/Cleanup Unused Data 
+
+            -> Python Automatically clean up unused data / memory (RAM)
+
+                    -> product = "Apple Iphone 16"
+                    -> price = 64000
+                    -> rating = 4.6 
+
+                -> print(product)
+                -> print(price)
+
+                -> python cleans up rating as it's not used 
+
+
+    -> Python is "Interpreted" Language 
+
+        -> An Interpreted Language executes the code "line by line" 
+
+    -> Compiled Language 
+
+        -> An Compiled Language translates the code into machine code, executes all the code at once 
+
+        -> NOTE: Performance wise "Compiled Languages" are Faster 
+
+    -> Considering above criteria, still why Python ?
+
+        -> Easy To Learn / Develop / Code Readability
+
+        -> Python has vast eco system of libraries (*)
+
+        -> Python is best PROTO TYPE LANGUAGE (2 weeks)
+
+            -> give me 2 years of times 
+
+            -> With Python we don't see speed of Applications 
+
+            -> With Python we focus on Development speed of Applications 
+
+
+
