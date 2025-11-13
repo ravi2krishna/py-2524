@@ -318,3 +318,79 @@
             -> NOTE: All the above keywords hold some special meaning to Python Interpreter
 
             
+13th Nov 2025
+==============
+
+    -> Python Rules / Syntax
+
+        -> Any python file goes with .py as extension 
+
+        -> Python ignores lines that start with # 
+
+        -> Comments are represented using # 
+
+        -> When working with numerics(1,2,3,4.5,3.14 etc)  
+            we can directly use numerics with print() 
+
+        -> When working with text data, in python text data is called as "String"
+
+            -> Strings are supposed to be represented using 
+                double quotes "" or single quotes ''
+    
+    -> Identifiers 
+
+        -> An identifier is a "name" used to uniquely identify a piece of data 
+            in python code 
+
+            -> Variable 
+            -> Function 
+            -> Class 
+            -> Object 
+            -> etc 
+        
+        -> Identifiers Rules 
+
+            -> Can Contain
+
+                -> Letters (a-z A-Z)
+                -> Digits (0-9)
+                -> Special Symbols ( _ Only underscore)
+
+            -> Must Start With 
+
+                -> A letter or _ (underscore)
+
+        -> NOTE: Always use proper way of naming identifiers 
+
+    -> Variables 
+
+        -> Variable is a named storage location in computers memory (RAM)
+            that holds some value or data 
+
+        -> Computer -> RAM -> Variables 
+
+        -> Variables Syntax
+
+            -> variable_name = value
+
+                -> variable_name should follow identifier rules 
+                -> = called as assignment operator 
+                -> value is data you want to store 
+
+                -> data = 10 (valid)
+                -> data = ten (invalid)
+                -> data = "ten" (valid) 
+
+        -> Variables Allow You To 
+
+            -> Assign Data (Store Data)
+
+            -> Retrieve Data (Get Data)
+
+            -> Manipulate Data (Change Data If Required)
+
+        -> Combine Variables with your custom statements 
+
+            -> Concatenation: Joining String using + operator 
+
+            -> When Combing String with other data types like int, float etc use , operator
