@@ -22,3 +22,39 @@ print("Student Age is: " ,student_age)
 print("Student GPA is: " ,student_gpa)
 print("Student Passed: " ,student_passed)
 print("Student Aadhar ID: " ,student_aadhar) 
+
+# Retrieve Data Identity (Get Memory Address) -> use id()
+print(id(student_name))
+print(id(student_age))
+print(id(student_gpa))
+print(id(student_passed))
+print(id(student_aadhar))
+
+# Memory Model In Python With Simple Types 
+value_x = 10
+print(id(value_x))
+
+value_y = 20
+print(id(value_y))
+
+value_z = 10
+print(id(value_z))
+
+# Memory Model In Python With Complex Types 
+value_x = [10,20,30]
+print(id(value_x))
+
+value_y = [40,50,60]
+print(id(value_y))
+
+value_z = [10,20,30]
+print(id(value_z))
+
+# Type Of Data
+print(type(student_name))
+print(type(student_age))
+print(type(student_gpa))
+print(type(student_passed))
+print(type(student_aadhar))
+print(type(value_z))
+

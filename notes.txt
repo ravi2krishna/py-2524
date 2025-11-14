@@ -394,3 +394,105 @@
             -> Concatenation: Joining String using + operator 
 
             -> When Combing String with other data types like int, float etc use , operator
+
+
+14th Nov 2025
+==============
+
+    -> We can verify memory location of a Variable 
+
+        -> use id() function 
+
+    -> Memory Model In Python 
+
+        -> If a value is already present, python will not create a memory block
+        again for the same value, when working with simple data types 
+
+    -> To Know The Type Of Data / value  
+
+        -> use type() function 
+
+    -> Manipulate Data (Change Data If Required) Using "Operators"
+
+    
+    -> Operators
+
+        -> Operators are special "Symbols" and "keywords", which Performs Operations on Variables 
+            and their Values 
+
+        -> There are different types of operator, to deal with different types of data 
+
+        -> Arithmetic Operators
+
+            -> To Perform Mathematical Calculations 
+
+            -> + - * / % 
+            -> // - floor division (same as division but rounds off result)
+            -> ** - Exponentiation (used to Calculate powers)
+
+
+        -> Compound Assignment Operators
+
+            -> Assignment Operator is = (used for assigning a value to Variable)
+
+            -> Compound Assignment Operators Combine Arithmetic Operators 
+                with Assignment Operators for "short hand code" (concise code)
+
+                -> x = 10
+                -> x = x + 5 (long form)
+                -> x = x * 5 (long form)
+
+                -> x += 5 (short form)
+                -> x *= 5 (short form)
+
+            -> In Other Programming Languages we got Increment & Decrement Operators
+
+                -> Increment (++)
+                -> Decrement (--)
+
+                -> NOTE: Above are not supported in python 
+        
+        -> Comparison Operators
+
+            -> Comparison Operators are used for Comparing Values
+                and result is in boolean type (True/False)
+
+                -> Especially Used In Conditional Checks 
+
+                -> ==, !=, >, <, >=, <= 
+
+        -> Logical Operators
+
+            -> For Performing Logical Operations 
+
+            -> Used to check multiple conditions 
+                and result is in boolean type (True/False)
+
+            -> and : if both conditions are True, then only result is True, otherwise False 
+            -> or : if one of the conditions is True, then result is True, otherwise False 
+            -> not : negates the result, if true then false and vice versa 
+
+                            X       Y       X and Y    X or Y    not X    not Y
+                            T       T           T         T         F       F
+                            T       F           F         T         F       T
+                            F       T           F         T         T       F
+                            F       F           F         F         T       T 
+
+
+        -> Membership Operators
+
+            -> Used for checking if an object in in the given sequence 
+
+                -> in : return True, if given object is in sequence
+
+                -> not in : return True, if given object is not in sequence
+
+            -> NOTE : How do i know if an object is iterable or not ?
+
+                -> dir() - function, tells what kind of operations can be performed 
+
+                    -> if __iter___ is found then you can iterate 
+                        i.e you can go with Membership Operators
+
+
+
