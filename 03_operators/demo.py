@@ -93,3 +93,22 @@ print("===============")
 print(dir(find_word))
 print("===============")
 print(dir(emps_ids))
+
+# Identity Operators 
+n1 = 10
+n2 = 10 
+n3 = 1
+
+print( n1 is n2)
+print( n1 is n3)
+print( n1 is not n3)
+
+# Bitwise Operators
+
+n1 = 5    # 0000000000000101
+n2 = 3    # 0000000000000011
+# n1 | n2 # 0000000000000111
+# n1 & n2 # 0000000000000001
+
+print(n1 & n2) 
+print(n1 | n2) 
