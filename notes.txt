@@ -684,3 +684,59 @@
 
     -> syntax 
         value_if_true if condition else value_if_false     
+
+
+19th Nov 2025
+==============
+
+    -> elif ladder 
+
+        -> elif is a keyword that stands for "else if" 
+
+        -> It is used in conditional statements to check "multiple conditions"
+            sequentially after an initial if statement
+        
+        -> Syntax
+
+            if condition:
+                statements
+            elif condition:
+                statements
+            elif condition:
+                statements
+            elif condition:
+                statements
+            elif condition:
+                statements
+            else:
+                statements
+
+    -> match-case 
+
+        -> Like elif we have match-case in python for checking "multiple conditions"
+
+        -> Offers a more expressive and readable alternative to 
+            complex if-elif-else chains 
+
+        -> Introduced from Python 3.X
+
+        -> In other languages like java / C++ we have (switch case) 
+
+        -> syntax 
+
+            match expression:
+                case pattern_1:
+                    # code block 1    
+                case pattern_2:
+                    # code block 2
+                case pattern_3:
+                    # code block 3
+                .
+                .
+                .
+                case _:
+                    # default code block
+    
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals
