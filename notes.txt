@@ -814,3 +814,30 @@
         -> continue : help you skip the current iteration 
 
         -> pass : acts as a placeholder, does nothing 
+
+25th Nov 2025
+==============
+
+    -> Control Statements Tasks Solutions 
+
+    -> Strings 
+
+       -> Strings are one of the most widely used Datatype in any programming language 
+
+       -> In Python, a string is a sequence of characters, used to represent text. 
+            Strings are a fundamental data type and are widely used for 
+            handling and manipulating textual information.
+
+        -> Strings are enclosed in double quotes ("") or single quotes('') or 
+            triple quotes(''' ''') or (""" """)
+
+            -> single line strings : use double quotes ("") or single quotes('')
+
+            -> multi line strings : use triple quotes(''' ''') or (""" """)
+    
+        -> Rules When Defining Strings 
+
+            -> When you use single quote in a string, enclose them in double quotes 
+            -> When you use double quote in a string, enclose them in single quotes 
+            -> When you use both single quote and double quote in a string, 
+                enclose them in triple quotes 

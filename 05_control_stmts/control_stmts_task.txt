@@ -16,7 +16,7 @@ for multiple subjects
     -> Repeatedly ask student to enter scores (0-100)
 
         -> yes for continue 
-        -> no to continue 
+        -> no to not continue 
 
     -> Calculate Average Score 
 
