@@ -928,4 +928,61 @@
     
     -> https://docs.python.org/3/library/stdtypes.html#string-methods
 
+
+3rd Dec 2025
+==============
+
+    -> String Application Requirement
+
+    -> Simple Data Types 
+
+        -> Can Hold One Value in a single variable 
+
+            -> data = 10
+            -> data = 10.5
+            -> data = "hello" 
+
+    -> Complex Data Types 
+
+        -> Can Hold Multiple Values in a single variable 
+
+            -> data = 10,20,30,40,50
+            -> data = 10.5,2.5,1.0
+            -> data = "hello", "hi", "hey" 
     
+    -> Python provides following classes to work with complex data types 
+
+        -> List
+        -> Tuple 
+        -> Dictionary
+        -> Set 
+
+
+    -> List 
+
+        -> List is a data structure which allows you to store multiple values
+            in a single variable, each value is separated with , 
+
+        -> Lists are represented using [ ] or using "list" class
+
+        -> Accessing Data In Lists 
+
+            -> Like in Strings, we have index concept in Lists too 
+
+            -> Index Starts with Zero (0)
+
+            -> Supports Positive & Negative Index 
+
+            -> Indexing & Slicing same as strings 
+
+                -> string[start:end:step]
+
+            -> Looping We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed 
+
+            -> Order is preserved 
