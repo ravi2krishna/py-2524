@@ -986,3 +986,67 @@
             -> Duplicates Allowed 
 
             -> Order is preserved 
+
+
+4th Dec 2025
+==============
+
+    -> List Methods / Operations 
+
+    -> List Characteristics 
+
+        -> Order: Lists are Ordered (Insertion Order Preserved)
+
+        -> Mutable: Lists are Mutable (List Can Be Changed)
+
+        -> Duplicates: Lists Allows Duplicates
+
+    -> NOTE:  Now i want to store employee AADHAR & PAN ID's 
+
+    -> For above List is not a suitable data type 
+
+    
+    
+    -> Tuple 
+
+        -> Tuple is a data structure which allows you to store multiple values
+            in a single variable, each value is separated with , 
+
+        -> Tuples are represented using ( ) or using "tuple" class
+
+        -> Accessing Data In Tuples 
+
+            -> Like in Strings, we have index concept in Tuples too 
+
+            -> Index Starts with Zero (0)
+
+            -> Supports Positive & Negative Index 
+
+            -> Indexing & Slicing same as strings 
+
+                -> string[start:end:step]
+
+            -> Looping We Can Apply 
+
+            -> Operators We Can Apply 
+
+            -> Conditionals We Can Apply 
+
+            -> Duplicates Allowed 
+
+            -> Order is preserved 
+
+    -> NOTE: Tuples are "IMMUTABLE" (Cannot be Changed i.e FIXED DATA)  
+
+    -> NOTE: Tuples are "READ ONLY LISTS"       
+
+    -> Tuples Methods / Operations 
+
+    -> Tuples Characteristics 
+
+        -> Order: Tuples are Ordered (Insertion Order Preserved)
+
+        -> Immutable: Tuples are Immutable (Tuples Cannot Be Changed)
+
+        -> Duplicates: Tuples Allows Duplicates
+
