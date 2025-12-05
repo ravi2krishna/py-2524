@@ -1050,3 +1050,47 @@
 
         -> Duplicates: Tuples Allows Duplicates
 
+
+5th Dec 2025
+==============
+
+    -> Dictionaries 
+
+        -> Dictionary is a data structure which allows you to store multiple 
+            key values in a single variable, each key value is separated with ,
+
+            -> key:value (item / pair)
+
+                -> "id":101,"name":"Ravi",course1":"python"
+
+        -> Dictionaries are represented using { } or using "dict" class
+
+        -> Accessing Data In Dictionaries 
+
+            -> Like in Strings, we DON'T have index concept in Dictionaries 
+
+                -> NOTE: Dictionaries doesn't support indexing
+
+            -> Doesn't Support Positive & Negative Index 
+
+            -> Doesn't Support Indexing & Slicing 
+        
+        -> Looping We Can Apply 
+
+        -> Operators We Can Apply 
+
+        -> Conditionals We Can Apply 
+
+        -> Duplicates Allowed in Dictionaries with some conditions 
+
+            -> Values can be Duplicated
+
+            -> Keys should be Unique (No Duplicates)
+
+            -> Keys Should be Immutable Objects Only 
+
+                -> NOTE: More than 90% of keys will be Strings 
+
+            -> Values can be any object 
+
+        -> Order is preserved 
