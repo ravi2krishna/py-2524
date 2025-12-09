@@ -1152,3 +1152,39 @@
         -> Frozen set: READ ONLY sets 
 
         -> NOTE: No symbol representation, only class frozenset()
+
+
+9th Dec 2025
+==============
+
+    -> Set Specific Operations 
+
+        NOTE: Methods which were in set are applicable for Frozenset except update()
+
+    -> How To Use above Data Structures In Application ?
+
+        -> Lists            (When To use) 
+        -> Tuples           (When To use) 
+        -> Dictionaries     (When To use) 
+        -> Sets             (When To use) 
+
+    -> CRUD Applications 
+
+        -> CRUD apps perform four basic operations Create, Read, Update, and Delete
+            on data stored in a database(data structures). 
+            They are used for managing information and are essential for applications 
+            that require persistent storage, such as content management systems, 
+            e-commerce sites, and customer relationship management (CRM) tools. 
+            Examples include online forms, user profile pages, 
+            and dashboards for managing records.
+
+            -> C - CREATE
+            -> R - READ
+            -> U - UPDATE
+            -> D - DELETE 
+
+        -> https://drive.google.com/file/d/1Yabj4nFUx_1g6eAw3EsEsopEWxivTK2Z/view?usp=sharing
+
+        -> https://drive.google.com/file/d/1gpWYycwbeRWrmShF5Hc1V86KcIVYJCfE/view?usp=sharing
+
+        -> Using Python We are Developing CRUD Application
