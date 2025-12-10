@@ -1188,3 +1188,9 @@
         -> https://drive.google.com/file/d/1gpWYycwbeRWrmShF5Hc1V86KcIVYJCfE/view?usp=sharing
 
         -> Using Python We are Developing CRUD Application
+
+
+10th Dec 2025
+==============
+
+    -> CRUD Application 
