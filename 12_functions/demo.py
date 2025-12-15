@@ -242,3 +242,143 @@ def increment():
     count += 1 # UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
 
 increment() 
+
+# Regular Function i.e without lambda
+def add(a,b):
+    return a + b 
+print(add(10,20))
+
+# With lambda function 
+# syntax -> lambda arguments:expression
+lambda a,b:a + b 
+print((lambda a,b:a + b) (30,40))
+
+# Without lambda
+def is_even_num(num):
+    if num % 2 == 0:
+        return True
+    else:
+        return False
+print(is_even_num(10))
+print(is_even_num(5))
+
+# With lambda
+# syntax -> lambda arguments:expression
+lambda num:num % 2 == 0
+print((lambda num:num % 2 == 0)(12))
+print((lambda num:num % 2 == 0)(7))
+
+# Without lambda
+def employee_info(emp_name,emp_email,emp_location):
+    print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}")
+
+employee_info(emp_name="Ravi",emp_email="ravi@gmail.com",emp_location="Hyd")
+
+# With lambda
+# syntax -> lambda arguments:expression
+print((lambda emp_name,emp_email,emp_location:print(f"Hi {emp_name}, your email is {emp_email} and work location is {emp_location}")) (emp_name="john",emp_email="john@gmail.com",emp_location="NYC"))
+
+# Without map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5] ==> [1,4,9,16,25]
+def square_list(numbers):
+    squared_list = []
+    for num in numbers:
+        squared_list.append(num * num)
+    return squared_list
+
+print(square_list([1,2,3,4,5]))
+
+# With map()
+# Write a script/program to take a list of numbers and return the square of list of numbers
+# [1,2,3,4,5] ==> [1,4,9,16,25]
+# syntax -> map(function, iterable)
+# syntax -> lambda arguments:expression
+# lambda num: num * num 
+map((lambda num: num * num ), [1,2,3,4,5])
+print(map((lambda num: num * num ), [1,2,3,4,5]))
+print(list(map((lambda num: num * num ), [1,2,3,4,5])))
+
+# real world use case of map -> find me prices after discounts 
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+# syntax -> map(function, iterable)
+# lambda product: product["price"] - product["price"] * product["discount"] / 100
+# 80000 -> 80000 - 80000 * 10 / 100 = 72000 
+# lambda p: p["price"] - p["price"] * p[]"discount"] / 100
+print(list(map((lambda p: p["price"] - p["price"] * p["discount"] / 100), products)))
+prices_after_discount = list(map((lambda p: p["price"] - p["price"] * p["discount"] / 100), products))
+print("Prices After Discount: ", prices_after_discount)
+
+
+# without filter()
+# Write a script/program to take a list of numbers and return the even list of numbers 
+# [1,2,3,4,5,6,7,8,9,10] ==> [2,4,6,8,10]
+def even_list(numbers):
+    evened_list = []
+    for num in numbers:
+        if num % 2 == 0:
+            evened_list.append(num)
+    return evened_list
+
+print(even_list([1,2,3,4,5,6,7,8,9,10]))
+
+
+# with filter()
+# Write a script/program to take a list of numbers and return the even list of numbers 
+# [1,2,3,4,5,6,7,8,9,10] ==> [2,4,6,8,10]
+# filter(function, iterable)
+# lambda num: num % 2 == 0
+filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10])
+print(filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10]))
+print(list(filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10])))
+
+# real world use case of map -> find me premium products i.e costs above 25000
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+
+print(list(filter((lambda p: p["price"] > 25000), products)))
+premium_products = list((filter((lambda p: p["price"] > 25000), products), products))
+print("Premium Products: ", premium_products)
+
+# without reduce()
+# Write a script/program to take a list of numbers and return the product of all numbers 
+# [1,2,3,4,5] ==> [1*2*3*4*5 ==> 120]
+def mul_numbers(numbers):
+    result = 1
+    for num in numbers:
+        result = result * num 
+    return result
+print(mul_numbers([1,2,3,4,5]))
+
+# with reduce()
+# Write a script/program to take a list of numbers and return the product of all numbers 
+# [1,2,3,4,5] ==> [1*2*3*4*5 ==> 120]
+# reduce(function, iterable)
+from functools import reduce
+print(reduce((lambda result,num: result*num),[1,2,3,4,5]))
+
+# real world use case of map -> find me total cart value of products
+products = [
+    {"name": "Laptop", "price": 80000, "discount": 10},
+    {"name": "Phone", "price": 50000, "discount": 5},
+    {"name": "Headphones", "price": 2000, "discount": 15},
+    {"name": "Charger", "price": 1500, "discount": 0},
+    {"name": "Camera", "price": 30000, "discount": 20},
+]
+prices = list(map((lambda p:p["price"]),products))
+print(prices)
+print(reduce((lambda total_cart_value,price: total_cart_value+price),prices))
+total_cart_value = reduce((lambda total_cart_value,price: total_cart_value+price),prices)
+print("Total Cart Value: ",total_cart_value)

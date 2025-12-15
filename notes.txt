@@ -1396,3 +1396,80 @@
 
             -> add(), emp_info(), math_ops() etc 
 
+
+15th Dec 2025
+==============
+
+    -> The ability of functional programming languages to treat functions as values and 
+        pass them to functions as parameters.
+
+    -> Lambda Functions (Anonymous Functions) 
+
+        -> A lambda function in Python is a small, anonymous function 
+            defined with the "lambda" keyword. 
+
+        -> Unlike standard functions defined with def, lambda functions are 
+            restricted to a "single expression", which is "implicitly returned"
+        
+        -> They are often used for "short, one-time operations" where 
+                a full function definition would be unnecessarily verbose.
+        
+        -> syntax
+
+                lambda arguments:expression
+
+        -> Using lambda we can write one liner functions called "IILE" 
+                Immediately Invoked Lambda Expression  
+
+    -> Lambda & Higher Order Functions 
+
+    -> Generally lambda functions will be "attached" with "Higher Order Functions" 
+
+    -> Higher Order Functions 
+
+        -> The goal of Higher Order Functions is to "perform operations on Iterables" 
+
+        -> Concise Code, without writing lengthy code with loops and conditionals
+
+            -> NOTE: Remember Imperative vs Declarative Style (How To Do vs What To Do) 
+
+        -> map()
+
+                -> The map() function in Python is a built-in function that applies 
+                    a given function to each item in an iterable (like a list, tuple, or string) 
+                    and returns an iterator containing the results. 
+                    
+                -> It provides a concise way to perform "transformations" on 
+                    collections of data without explicitly writing loops. 
+
+                    -> syntax
+
+                        map(function, iterable)
+
+                -> NOTE: Just Like Using For Loop with function
+
+        -> filter()
+
+                -> The filter() function in Python is a built-in function used to construct an iterator 
+                from elements of an iterable for which a function returns true. 
+                It is a powerful tool for selectively extracting data based on a given condition.
+
+                -> syntax
+
+                        filter(function, iterable)
+
+                -> NOTE: Just Like Using For Loop with Conditions 
+
+        -> reduce()
+
+                -> The reduce() function in Python, found within the "functools" module, 
+                is a higher-order function that applies a given function cumulatively 
+                to the items of an iterable, 
+                reducing the iterable to a single, cumulative value.
+
+                -> from functools import reduce
+
+                -> syntax
+
+                        reduce(function, iterable)
+    
