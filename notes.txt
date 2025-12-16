@@ -1473,3 +1473,58 @@
 
                         reduce(function, iterable)
     
+16th Dec 2025
+==============
+
+    -> Functional Style With CRUD Application
+
+    -> Additionally Implement "Search Students By Skill" Using Higher Order 
+            functions approach 
+
+    -> Modules 
+
+        -> A module is simple python file which contains python definitions 
+
+            -> variables 
+            -> functions 
+            -> classes 
+            -> etc 
+        
+        -> Modules Allow you to reuse code, instead of rewriting 
+
+        -> NOTE: Reusability in terms of code blocks go for functions 
+
+        -> NOTE: Reusability in terms of files go for modules 
+
+    -> Types Of Modules
+
+        -> Inbuilt Modules 
+
+            -> Provided as part of standard python library 
+
+        -> User Defined Modules
+
+            -> Created By User/Developer 
+
+            -> import using file name 
+
+        -> External Modules 
+
+            -> Provided by 3rd party vendors 
+
+                -> https://pypi.org
+
+            -> pip (python package manager)
+
+                -> pip install module_name 
+                -> pip install pandas 
+
+                -> https://pypi.org/project/requests/
+
+                -> https://medium.com/@noorfatimaafzalbutt/fetching-data-through-apis-with-python-a-comprehensive-guide-e3b335de0067
+    
+    -> syntax
+
+        -> import module (imports complete module i.e loading all Functionalities) 
+
+        -> from module import specific_functionality (import only what you need)  (recommended)

@@ -1,0 +1,17 @@
+# Inbuilt Modules
+
+# 1st Syntax 
+import math
+
+print(math.pi)
+print(math.sqrt(25))
+
+# 2nd Syntax
+from math import pi 
+print(pi)
+# print(sqrt(25))
+
+# 2nd Syntax
+from math import pi,sqrt 
+print(pi)
+print(sqrt(25))
