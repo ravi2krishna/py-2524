@@ -56,3 +56,39 @@ with open("14_file_manage/write.txt","w") as file_data:
 # write mode, write content to file with multiple lines
 with open("14_file_manage/write.txt","w") as file_data:
     file_data.writelines(['Hello there how are you\n', 'are you coming to class today'])
+
+# Overrides Data    
+with open("14_file_manage/write.txt","w") as file_data:
+    file_data.writelines(['Line 3\n', 'Line 4'])    
+
+# append mode, write content to file with multiple lines
+with open("14_file_manage/new.txt","w") as file_data:
+    file_data.writelines(['Hello there how are you\n', 'are you coming to class today\n'])
+    
+# append Data    
+with open("14_file_manage/new.txt","a") as file_data:
+    file_data.writelines(['Line 3\n', 'Line 4']) 
+    
+# Working Folder / Directory 
+
+# Create Folder / Directory 
+import os 
+directory_name = "14_file_manage/students_data"     
+if not os.path.exists(directory_name):
+    os.mkdir(directory_name)
+
+# Create file
+with open("14_file_manage/students_data/student.txt","w") as file_data:
+    print(file_data)
+
+# Delete File 
+os.remove("14_file_manage/new.txt")
+
+# Delete Empty Folder 
+directory_name = "14_file_manage/test"
+os.rmdir(directory_name)
+
+# Delete Non-Empty Folder 
+import shutil
+directory_name = "14_file_manage/students_data"    
+shutil.rmtree(directory_name)

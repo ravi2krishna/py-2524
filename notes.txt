@@ -1622,4 +1622,32 @@
         -> write()
         -> writelines()
 
-    
+        -> NOTE: In "w" mode, previous data is overridden 
+
+    -> File Writing "a" mode [ Append Mode ]
+
+        -> NOTE: In "w" mode, previous data is not overridden 
+
+18th Dec 2025
+==============
+
+    -> Folder / Directory Management 
+
+        -> "os" module 
+        -> "shutil" module 
+
+    -> Create Folders & Delete Folders can be done with above modules 
+
+    -> Working with "csv" module 
+
+        -> Very commonly used in "Data Oriented Applications"
+
+        -> https://www.datablist.com/learn_images/csv/google_sheet_csv.png
+
+        -> https://www.slashgear.com/img/gallery/csv-files-explained-what-they-are-and-how-to-open-them/what-are-csv-files-1699455969.jpg
+
+        -> For Fixed Data Sets, we can use "reader" functionality from csv module
+
+            -> students.csv file
+
+        -> For Changing Data Sets, we can use DictReader functionality from csv module
