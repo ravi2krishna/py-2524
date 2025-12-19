@@ -1651,3 +1651,45 @@
             -> students.csv file
 
         -> For Changing Data Sets, we can use DictReader functionality from csv module
+
+
+19th Dec 2025
+==============
+
+    -> We have read & write Functionalities with CSV Files 
+
+        -> reader
+        -> DictReader 
+
+        -> writer 
+        -> DictWriter  
+
+            -> writerow
+            -> writerows 
+
+    -> Working With JSON Data / Files 
+
+    -> JSON (JavaScript Object Notation) is a human-readable, text-based format 
+    for "storing" and "exchanging" data that is widely used for 
+    web applications, APIs, and configuration files. 
+
+    -> JSON represents data as key-value pairs within objects 
+        (enclosed in curly braces {}) -> same as Dictionary in python
+
+    -> https://d33wubrfki0l68.cloudfront.net/0e4bef351d9e23cdb33adba9e491f73db3c9c50c/7dcfe/data.png
+
+    -> https://docs.tomorrow.io/reference/weather-forecast
+
+    -> Very Commonly Used in Application Development (API's)
+
+    -> We have "json" module built in python standard library 
+
+    -> json operations
+
+        -> dump -> as a file we can store/write data, it accepts data and filename
+
+        -> load -> from a json file we can read data 
+
+        -> dumps -> object based writing 
+
+        -> loads -> object based reading
