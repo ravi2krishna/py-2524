@@ -1693,3 +1693,11 @@
         -> dumps -> object based writing 
 
         -> loads -> object based reading
+
+
+22nd Dec 2025
+==============
+
+    -> Student Management System - With File Storage On Disk (persistent data)
+
+    

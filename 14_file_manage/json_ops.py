@@ -44,6 +44,58 @@ if json_reader["gpa"] > 7:
     print(f"{json_reader["name"]} Passed")
 else:
     print(f"{json_reader["name"]} Failed")
+ 
+# File Based (dump & load)
+
+# Object Based (dumps & loads)
+student = {
+    "id": 101,
+    "name": "Ravi",
+    "email": "ravi2krishna@gmail.com",
+    "courses":["python","django","react"],
+    "gpa": 9.5
+}
     
+json_data = json.dumps(student)
+print(json_data)
+print(type(json_data))
+
+string_data = '{"id": 101, "name": "Ravi", "email": "ravi2krishna@gmail.com", "courses": ["python", "django", "react"], "gpa": 9.5}'
+print(type(string_data))
+dict_data = json.loads(string_data)
+print(dict_data)
+print(type(dict_data))
+
 # Building Full Stack Python Application(API) - JSON Use Case 
+import urllib.request
+
+url = "https://dummyjson.com/users"
+
+response = urllib.request.urlopen(url)
+print(response)
+
+# Read Content
+api_data = response.read()
+print(api_data)
+print(type(api_data))
+
+# Convert Data 
+api_data = json.loads(api_data)
+print(api_data)
+print(type(api_data))
+
+# Customer Requirement: List me Users 
+users = api_data['users']
+print(users)
+
+# Customer Requirement: List me Users usernames & count of users  
+# users = api_data['users']
+for user in users:
+    print(user['username'])
+print("NUmber Of Users: ", len(users))
+
+# Customer Requirement: List me Users with age below 30
+for user in users:
+    if user['age'] < 30:
+        print(user['username'], user['age'])
 
