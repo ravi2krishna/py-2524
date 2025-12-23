@@ -1700,4 +1700,45 @@
 
     -> Student Management System - With File Storage On Disk (persistent data)
 
+23rd Dec 2025
+==============
+
+    -> Exception Handling 
+
+        -> Exception : It's an "Error", which might occur during the program execution 
+
+        -> By default when python encounters an Error, it abruptly "STOPS" the program execution
+
+    -> To change the above default behavior, and handle the Exceptions 
+            by yourself, we need following
+
+            -> try: used to keep the code, that will cause error 
+
+            -> except: used to keep the code that should run, when errors occur 
+
+                -> Try statement must have at least one except or finally clause
+
+            -> else: used to keep the code that short run, if No Exception was raised in try block
+
+            -> finally: used to keep the code that should run, whether an exception raised or not 
+                        DB / Files -> closing connections will be in done in finally block 
+
+    -> Earlier we worked with In built Exceptions provided as part of 
+        python standard library (ZeroDivisionError, IndexError, ValueError etc)
+
+        -> https://docs.python.org/3/library/exceptions.html 
+
+    -> But sometimes you need your "own custom errors" that describes a situation 
+        Specific to your program 
     
+    -> You create a custom exception by "defining a class" that inherits 
+        from Python’s built-in "Exception" class. 
+        This concept is connected to inheritance.
+
+        -> All user-defined exceptions should also be derived from Exception class.
+
+        -> syntax
+
+            class MyCustomError(Exception):
+                pass 
+
