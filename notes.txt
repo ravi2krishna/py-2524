@@ -1887,4 +1887,53 @@
         
         object = ClassName()
 
-        
+26th Dec 2025
+==============
+
+    -> In Python Classes are automatically called, class call is not required 
+
+    -> Methods 
+
+        -> A Method is a block of Code, Which Performs a task (Associated With Objects)
+
+        -> Methods will be inside the class 
+
+        ->                      Functions                           Methods
+
+        How To Call             function_name(args)                 object.method_name(args)
+
+        Belongs To              independent                         object 
+
+        Defined Using           def function_name                   def method_name (but inside class)
+
+    
+    -> When working with OOP Style, one of the confusions initially is 
+
+        -> Python Automatically Passes an object(self) to method
+
+        -> self is nothing but object reference 
+
+        -> "self" is recommendedm, but you can pass anything as refernce 
+
+    -> __init__()
+
+        -> __init__() is a special method in python (also called as Constructor)
+
+        -> Constructors are used to initialize the data 
+
+        -> When we create an object, Constructors are Automatically Called (*)
+
+        -> __init__() is defined within a class and always takes self as its
+            first parameter, which refers to Instance of object being created 
+
+            -> It can Additionally take other parameters to receive values 
+                for initializing objects attributes 
+
+            -> syntax 
+
+                class MyClass:
+                    def __init__(self,attribute1,attribute2...):
+                        self.attribute1 = attribute1
+                        self.attribute2 = attribute2
+                        .
+                        
