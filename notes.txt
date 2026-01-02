@@ -2185,3 +2185,54 @@
 ==============
 
     -> Using Abstraction we can set contract like behavior and hide implementation
+
+
+2nd Jan 2026
+==============
+
+    -> Polymorphism 
+
+        -> Polymorphism in OOP is the ability to take on "many forms"
+
+        -> Polymorphism is achieved through techniques like 
+            "method overloading" and "method overriding"
+
+        -> Method Overloading in OOP is the ability to define multiple methods or functions 
+            with the same name but different parameter lists 
+            (number, type, or order of arguments) within a single class
+
+            -> NOTE: Python doesn't support Traditional Method Overloading
+
+        -> Method Overriding
+
+            -> When a subclass provides a new implementation of a method 
+            that already exists in parent class 
+
+    -> Polymorphism: https://images.news18.com/ibnlive/uploads/2018/02/Amazon-India-UPI-Payment-Option.jpg
+
+    
+    -> Banking System 
+
+        -> Inheritance
+
+            -> Common Shared Behavior Re use 
+
+                -> Savings Account 
+                -> Current Account 
+
+        -> Encapsulation
+
+            -> Account Balance # private 
+            -> Account Number 
+            -> Account Name 
+
+        -> Abstraction
+
+            -> Every Banks Account must support
+
+                -> deposit 
+                -> withdraw 
+
+        -> Polymorphism
+
+            -> withdraw() behaves differently for each account type 
