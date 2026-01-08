@@ -1210,6 +1210,8 @@
             a specific task, takes input (arguments), processes data, 
             and can return an output.
 
+            -> Example we used max function in previous app 
+
     -> Why Functions 
 
         ->  For writing modular, organized and efficient code.

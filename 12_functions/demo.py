@@ -77,6 +77,7 @@ def employee_info(emp_name,emp_email,emp_location):
 
 employee_info("hyderabad","ravi","ravi@gmail.com")
 employee_info("ravi","ravi@gmail.com","hyderabad")
+# employee_info("ravi","ravi@gmail.com") # TypeError: employee_info() missing 1 required positional argument: 'emp_location'
 
 # Keywords Arguments
 def employee_info(emp_name,emp_email,emp_location):
@@ -108,10 +109,23 @@ employee_info(emp_location="chennai",emp_name="krishna",emp_email="krishna@gmail
 def employee_info(emp_name,emp_email,emp_location,emp_mobile,org_name="Google",org_gst="90291021092"): # Non-default argument follows default argumentPylance
     print(f"Hi {emp_name}, your email is {emp_email} and working for {org_name} at location {emp_location}")
     
+# With Default Arguments Correct Placement
+def employee_info(emp_name,emp_email,emp_location,org_name="Google",emp_mobile="999"): 
+     print(f"Hi {emp_name}, your email is {emp_email} and working for {org_name} at location {emp_location}")
+    
 # Arbitrary Positional Arguments
 # def add_numbers(a)
 # def add_numbers(a,b)
 # def add_numbers(a,b,c,d)
+
+# def add_numbers(*a)
+
+def add_numbers(*nums):
+    print(nums)
+
+add_numbers(10)
+add_numbers(10,20)
+add_numbers(10,20,30,40,50)
 
 def add_numbers(*nums):
     total = 0
