@@ -257,6 +257,16 @@ def increment():
     return count
 print(increment())
 
+# Built In Functions 
+# id(), type(), dir(), input(), len(), max(), min()
+data = [10,20,30,40,50]
+print(id(data))
+print(type(data))
+print(dir(data))
+print(len(data))
+print(max(data))
+print(min(data))
+
 # Regular Function i.e without lambda
 def add(a,b):
     return a + b 
