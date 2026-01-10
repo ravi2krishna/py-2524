@@ -254,8 +254,8 @@ count = 0
 def increment():
     global count
     count += 1 # UnboundLocalError: cannot access local variable 'count' where it is not associated with a value
-
-increment() 
+    return count
+print(increment())
 
 # Regular Function i.e without lambda
 def add(a,b):
