@@ -266,6 +266,7 @@ print(dir(data))
 print(len(data))
 print(max(data))
 print(min(data))
+# print(dir(__builtins__)) # checking built in 
 
 # Regular Function i.e without lambda
 def add(a,b):
