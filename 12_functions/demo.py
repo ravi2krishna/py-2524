@@ -377,7 +377,7 @@ filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10])
 print(filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10]))
 print(list(filter((lambda num: num % 2 == 0), [1,2,3,4,5,6,7,8,9,10])))
 
-# real world use case of map -> find me premium products i.e costs above 25000
+# Real World Use Case Of Working With Lambda & Higher Order Functions 
 products = [
     {"name": "Laptop", "price": 80000, "discount": 10},
     {"name": "Phone", "price": 50000, "discount": 5},
@@ -385,6 +385,14 @@ products = [
     {"name": "Charger", "price": 1500, "discount": 0},
     {"name": "Camera", "price": 30000, "discount": 20},
 ]
+# find me premium products i.e a product with price above 25000 
+premium_products = []
+for product in products:
+    price = product["price"]
+    if price > 25000:
+        premium_products.append(product)
+
+print(premium_products)
 
 print(list(filter((lambda p: p["price"] > 25000), products)))
 premium_products = list((filter((lambda p: p["price"] > 25000), products), products))
