@@ -209,6 +209,34 @@
 
         -> Python uses multi paradigm approach i.e we use Imperative Approach & Declarative Approach 
 
+        -> Imperative Code With Python 
+
+                def get_user_emails(users):
+                        emails = []  # Step-by-step building the result
+
+                        for i in range(len(users)):         # Loop manually
+                            user = users[i]                 # Fetch each user
+
+                            if user.get("email") is not None:   # Check condition manually
+                                emails.append(user["email"])    # Manually add to list
+
+                        return emails
+
+
+                    # Sample users list
+                    users = [
+                        {"name": "Mike", "email": "mike@gmail.com"},
+                        {"name": "John", "email": None},
+                        {"name": "Sara", "email": "sara@gmail.com"}
+                    ]
+
+                    print(get_user_emails(users))
+
+
+            -> Declarative Code With Python 
+
+                emails = [u["email"] for u in users if u["email"] is not None]
+
 
     -> Key Features Of Python / Why Python ?
 

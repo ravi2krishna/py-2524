@@ -324,7 +324,7 @@ map((lambda num: num * num ), [1,2,3,4,5])
 print(map((lambda num: num * num ), [1,2,3,4,5]))
 print(list(map((lambda num: num * num ), [1,2,3,4,5])))
 
-# real world use case of map -> find me prices after discounts 
+# Real World Use Case Of Working With Lambda & Higher Order Functions 
 products = [
     {"name": "Laptop", "price": 80000, "discount": 10},
     {"name": "Phone", "price": 50000, "discount": 5},
@@ -332,6 +332,19 @@ products = [
     {"name": "Charger", "price": 1500, "discount": 0},
     {"name": "Camera", "price": 30000, "discount": 20},
 ]
+# real world use case of map -> find me prices after discounts 
+
+# find me prices after discount 
+prices_after_discount = []
+for product in products:
+    price = product["price"]
+    discount = product["discount"]
+    
+    price_after_discount = price - (price * discount / 100)
+    prices_after_discount.append(price_after_discount)
+
+print(prices_after_discount)
+
 
 # syntax -> map(function, iterable)
 # lambda product: product["price"] - product["price"] * product["discount"] / 100
