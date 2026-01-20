@@ -128,8 +128,7 @@
 
         -> Static type-checked (Java)
 
-            -> NOTE : Static type-checked means, we need to explicitly specify 
-                        Data Types and it's Mandatory
+            -> NOTE: Static Type checked means, we "MUST" to "explicitly" specify Data Type
 
                     -> String product = "Apple Iphone 16";
                     -> int price = 64000;
@@ -1522,9 +1521,9 @@
         
         -> Modules Allow you to reuse code, instead of rewriting 
 
-        -> NOTE: Reusability in terms of code blocks go for functions 
+            -> NOTE: Reusability in terms of code blocks go for functions 
 
-        -> NOTE: Reusability in terms of files go for modules 
+            -> NOTE: Reusability in terms of files go for modules 
 
     -> Types Of Modules
 
@@ -1635,7 +1634,7 @@
             with open("file_path","mode") as alias_name:
                 statements 
             
-            open("file.txt","r") as file_data:
+            with open("file.txt","r") as file_data:
                 statements 
             
             -> NOTE: Here implicitly files are closed, 
@@ -1656,7 +1655,7 @@
 
     -> File Writing "a" mode [ Append Mode ]
 
-        -> NOTE: In "w" mode, previous data is not overridden 
+        -> NOTE: In "a" mode, previous data is not overridden 
 
 18th Dec 2025
 ==============
@@ -1668,7 +1667,13 @@
 
     -> Create Folders & Delete Folders can be done with above modules 
 
-    -> Working with "csv" module 
+    -> NOTE: We don't work with text files regularly in real world 
+
+    -> Working with "csv" data i.e Data Oriented Courses use csv files a lot
+
+    -> Working with "csv" data i.e Data Oriented Courses use csv files a lot
+
+    -> To work with csv files we have "csv" module
 
         -> Very commonly used in "Data Oriented Applications"
 

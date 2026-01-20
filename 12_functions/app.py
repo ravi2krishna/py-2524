@@ -119,6 +119,7 @@ def search_student_skill():
         print("Searching Student")
         skill_to_search = input("Enter Skill To Search: ")
         filtered_students = list(filter((lambda sid: skill_to_search in students[sid]['skills']) ,students))
+        # print(filtered_students)
         if filtered_students:
             print(f"Students With Skills {skill_to_search}")
             for sid in filtered_students:

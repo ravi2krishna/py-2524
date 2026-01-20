@@ -6,12 +6,12 @@ import math
 print(math.pi)
 print(math.sqrt(25))
 
-# 2nd Syntax
+# 2nd Syntax - recommended
 from math import pi 
 print(pi)
 # print(sqrt(25))
 
-# 2nd Syntax
+# 2nd Syntax - recommended
 from math import pi,sqrt 
 print(pi)
 print(sqrt(25))

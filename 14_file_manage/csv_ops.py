@@ -4,6 +4,7 @@ import csv
 
 # Read Data from CSV File
 with open("14_file_manage/students.csv","r") as file_data:
+    # print(file_data.read())
     csv_reader = csv.reader(file_data)
     for row in csv_reader:
         print(row)
