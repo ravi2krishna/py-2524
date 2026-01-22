@@ -321,7 +321,7 @@
 
             -> English has 26 Alphabets (abcd......z)
 
-            -> Using these Alphabets, we form words and then complex sentences over time 
+            -> Using these Alphabets, we learn to form words and complex sentences over time 
 
 
         -> Learn Python  
@@ -1704,30 +1704,43 @@
 
     -> Working With JSON Data / Files 
 
-    -> JSON (JavaScript Object Notation) is a human-readable, text-based format 
-    for "storing" and "exchanging" data that is widely used for 
-    web applications, APIs, and configuration files. 
+    -> JSON (JavaScript Object Notation) is a lightweight, human-readable, text-based format 
+    for storing and exchanging structured data, using key-value pairs and arrays, 
+    making it ideal for web applications, APIs and Configuration Files(Cloud & DevOps)
 
     -> JSON represents data as key-value pairs within objects 
         (enclosed in curly braces {}) -> same as Dictionary in python
 
     -> https://d33wubrfki0l68.cloudfront.net/0e4bef351d9e23cdb33adba9e491f73db3c9c50c/7dcfe/data.png
 
-    -> https://docs.tomorrow.io/reference/weather-forecast
+    -> https://jsoneditoronline.org/images/news/smart_json_formatting.png
 
-    -> Very Commonly Used in Application Development (API's)
+        -> Full Stack Development 
 
+            -> https://d274cmdd0goq94.cloudfront.net/wp-content/uploads/2022/01/3.jpeg
+
+            -> https://images.velog.io/images/kevinkim2586/post/20923cbf-a83e-4857-968f-0b6dffde9a8d/Screen%20Shot%202021-01-14%20at%202.27.47%20PM.png
+
+            -> https://docs.tomorrow.io/reference/weather-forecast
+
+            -> JSON is widely used in Application Development (API's)
+
+        -> Cloud / DevOps Scripting 
+
+            -> https://docs.aws.amazon.com/AWSCloudFormation/latest/TemplateReference/aws-resource-ec2-vpc.html
+
+            
     -> We have "json" module built in python standard library 
 
     -> json operations
 
-        -> dump -> as a file we can store/write data, it accepts data and filename
+        -> json.dump() - Serializes a Python object to a JSON-formatted file (writes to a file pointer).
 
-        -> load -> from a json file we can read data 
+        -> json.load()	Deserializes a JSON-formatted file to a Python object (reads from a file pointer).
 
-        -> dumps -> object based writing 
+        -> json.dumps()	Serializes a Python object to a JSON-formatted string ("dump string").
 
-        -> loads -> object based reading
+        -> json.loads()	Deserializes a JSON-formatted string to a Python object ("load string").
 
 
 22nd Dec 2025

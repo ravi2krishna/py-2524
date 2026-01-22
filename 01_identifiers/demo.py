@@ -38,6 +38,7 @@ student_age = 20
 student_gpa = 9.5
 
 # Static Data i.e FIXED data 
-STUDENT_AADHAR_ID = 29292992929292
+STUDENT_AADHAR_ID = 929293039202 # recommended 
+stu_aadhar_id = 929293039202 # not recommended 
 
 

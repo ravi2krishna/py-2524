@@ -25,9 +25,9 @@ print("=" * 50)
 
 # Read Data from JSON File
 with open("14_file_manage/student.json","r") as file_data:
-    json_reader = json.load(file_data)
-    print(json_reader)
-    print(type(json_reader))
+    data = json.load(file_data)
+    print(data)
+    print(type(data))
 
 # Requirement: Get Student Name & Number Of Courses he joined from student.json 
 with open("14_file_manage/student.json","r") as file_data:
@@ -45,9 +45,9 @@ if json_reader["gpa"] > 7:
 else:
     print(f"{json_reader["name"]} Failed")
  
-# File Based (dump & load)
+# File based -> dump() & load()
 
-# Object Based (dumps & loads)
+# Python Object based -> dumps() & loads()
 student = {
     "id": 101,
     "name": "Ravi",
