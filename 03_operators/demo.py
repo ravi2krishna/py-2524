@@ -95,13 +95,23 @@ print("===============")
 print(dir(emps_ids))
 
 # Identity Operators 
-n1 = 10
-n2 = 10 
-n3 = 1
+n1 = [1, 2] 
+n2 = [1, 2] 
 
+print(id(n1))
+print(id(n2))
+
+n3 = 10
+n4 = 10
+
+print( n1 == n2)
 print( n1 is n2)
-print( n1 is n3)
-print( n1 is not n3)
+
+print( n3 == n4)
+print( n3 is n4)
+
+print(id(n3))
+print(id(n4))
 
 # Bitwise Operators
 

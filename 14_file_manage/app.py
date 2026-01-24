@@ -57,7 +57,7 @@ print("=" * 50)
 # https://jsoneditoronline.org/images/news/smart_json_formatting.png
 
 # Dictionary to hold all students data 
-students = {}
+students = load_students()
 
 # Adding Student Function 
 def add_student():

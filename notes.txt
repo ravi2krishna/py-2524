@@ -426,6 +426,10 @@
 14th Nov 2025
 ==============
 
+    -> To Know The Type Of Data / value  
+
+        -> use type() function 
+    
     -> We can verify memory location of a Variable 
 
         -> use id() function 
@@ -433,11 +437,7 @@
     -> Memory Model In Python 
 
         -> If a value is already present, python will not create a memory block
-        again for the same value, when working with simple data types 
-
-    -> To Know The Type Of Data / value  
-
-        -> use type() function 
+        again for the same value, when working with simple data types     
 
     -> Manipulate Data (Change Data If Required) Using "Operators"
 
@@ -532,6 +532,15 @@
                 -> is : return True, if objects are same 
 
                 -> is not : return True, if objects are not same 
+
+            -> NOTE: 
+            
+                -> (Equality operator): Compares the values of two objects. 
+                It returns True if their contents are the same, 
+                regardless of where they are stored in memory.
+
+                -> is (Identity operator): Compares the identity (memory address) of two objects. 
+                It returns True only if both variables refer to the exact same object in memory. 
         
        
         -> Bitwise Operators
