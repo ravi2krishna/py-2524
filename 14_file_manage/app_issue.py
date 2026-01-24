@@ -17,14 +17,9 @@ import json
 
 # loading students data from json file 
 def load_students():
-    if os.path.exists(FILE_NAME):
-        with open(FILE_NAME,"r") as file:
-            try:
-                return json.load(file)
-            except json.JSONDecodeError:
-                return {}
-    else:
-        return {}
+    # Read Data From JSON File
+    with open(FILE_NAME,"r") as file_data:
+        return json.load(file_data)
     
 # save students data to json file 
 def save_students():
