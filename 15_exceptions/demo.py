@@ -153,6 +153,14 @@ else:
 class AgeError(Exception):
     pass 
 
+# Voting App 
+age = int(input("Enter Age: "))
+if age < 18:
+    raise AgeError
+else:
+    print("You Can Vote")
+    
+# With Message 
 age = int(input("Enter Age: "))
 if age < 18:
     raise AgeError("Your Age Must be at least 18 years to vote")

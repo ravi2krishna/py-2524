@@ -1762,7 +1762,7 @@
 
     -> Exception Handling 
 
-        -> Exception : It's an "Error", which might occur during the program execution 
+        -> Exception: It's an "Error", which might occur during the program execution 
 
         -> By default when python encounters an Error, it abruptly "STOPS" the program execution
 
@@ -1775,7 +1775,7 @@
 
                 -> Try statement must have at least one except or finally clause
 
-            -> else: used to keep the code that short run, if No Exception was raised in try block
+            -> else: used to keep the code that should run, if No Exception was raised in try block
 
             -> finally: used to keep the code that should run, whether an exception raised or not 
                         DB / Files -> closing connections will be in done in finally block 
@@ -1907,7 +1907,7 @@
 
         -> An Object has two entities 
 
-            -> An Object "has" something like Characteristics / Properties (DATA) - CAR 
+            -> An Object "has" something like Characteristics / Properties (VARIABLES) - CAR 
 
                 -> CAR has brand 
                 -> CAR has price 
@@ -1970,29 +1970,31 @@
 
         -> self is nothing but object reference 
 
-        -> "self" is recommendedm, but you can pass anything as refernce 
+        -> "self" is recommended, but you can pass anything as reference 
 
-    -> __init__()
+    -> Constructors   
 
-        -> __init__() is a special method in python (also called as Constructor)
+        -> In Python, the constructor is a "special method" used to initialize a 
+        newly created object's attributes (its initial state). 
+        
+        -> This method is automatically called when you create a new instance of a class. 
+        
+        -> The specific method used for this purpose is named __init__
 
-        -> Constructors are used to initialize the data 
+        -> The __init__() method defines the actions that run as soon as an object is
 
-        -> When we create an object, Constructors are Automatically Called (*)
+        -> NOTE: __init__() is defined within a class and always takes "self" as its
+            first parameter, which refers to Instance of object being created
 
-        -> __init__() is defined within a class and always takes self as its
-            first parameter, which refers to Instance of object being created 
-
-            -> It can Additionally take other parameters to receive values 
+        -> __init__() can Additionally take other parameters to receive values 
                 for initializing objects attributes 
 
-            -> syntax 
+        -> Syntax
 
-                class MyClass:
-                    def __init__(self,attribute1,attribute2...):
-                        self.attribute1 = attribute1
-                        self.attribute2 = attribute2
-                        .
+            class ClassName:
+                def __init__(self, parameter1, parameter2, ...):
+                    self.parameter1 = parameter1
+                    self.parameter2 = parameter2
 
 
 29th Dec 2025
